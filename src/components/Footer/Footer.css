@@ -1,7 +1,8 @@
 .footer {
-  background-color: #333;
-  color: white;
+  background-color: var(--text-color);
+  color: var(--accent-color-1);
   padding: 20px;
   text-align: center;
   font-style: italic;
+  font-size: 0.9em;
 }

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import './PlantDetailsPage.css';
 
 const PlantDetailsPage = () => {
+  const navigate = useNavigate();
   const [plant, setPlant] = useState(null);
   const { slug } = useParams();
 
@@ -21,6 +22,7 @@ const PlantDetailsPage = () => {
 
   return (
     <div className="plant-details-page">
+      <button onClick={() => navigate(-1)} className="back-button">← Back to Home</button>
       <div className="plant-images">
         {plant.images.map((image, index) => (
           <img key={index} src={`${process.env.PUBLIC_URL}/${image}`} alt={`${plant.name} ${index + 1}`} />

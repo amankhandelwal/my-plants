@@ -8,8 +8,8 @@
       "scientific_name": "Dracaena trifasciata",
       "plant_type": "Succulent",
       "images": ["plants/snake_plant.jpeg"],
-      "watering": "Once a week",
-      "fun_fact": "It is a popular houseplant because it is tolerant of low light levels and irregular watering."
+      "watering": "💧 Once a week",
+      "fun_fact": "✨ It is a popular houseplant because it is tolerant of low light levels and irregular watering."
     },
     {
       "id": 2,
@@ -19,8 +19,8 @@
       "scientific_name": "Portulacaria afra",
       "plant_type": "Succulent",
       "images": ["plants/elephant_bush.jpeg"],
-      "watering": "Once a week",
-      "fun_fact": "It is a common houseplant, but is also used in landscaping in some parts of the world."
+      "watering": "💧 Once a week",
+      "fun_fact": "🌿 It is a common houseplant, but is also used in landscaping in some parts of the world."
     },
     {
       "id": 3,
@@ -30,8 +30,8 @@
       "scientific_name": "Crassula ovata",
       "plant_type": "Succulent",
       "images": ["plants/jade.jpeg", "plants/jade_2.jpeg"],
-      "watering": "Once a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a symbol of good luck."
+      "watering": "💧 Once a week",
+      "fun_fact": "🍀 It is a popular houseplant, and is also used in some cultures as a symbol of good luck."
     },
     {
       "id": 4,
@@ -41,8 +41,8 @@
       "scientific_name": "Polyscias fruticosa",
       "plant_type": "Shrub",
       "images": ["plants/ming_aralia.jpeg"],
-      "watering": "Once a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "watering": "💧 Once a week",
+      "fun_fact": "🌸 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
     },
     {
       "id": 5,
@@ -52,8 +52,8 @@
       "scientific_name": "Dracaena reflexa",
       "plant_type": "Shrub",
       "images": ["plants/song_of_india.jpeg"],
-      "watering": "Twice a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "watering": "💧 Twice a week",
+      "fun_fact": "🌴 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
     },
     {
       "id": 6,
@@ -63,8 +63,8 @@
       "scientific_name": "Thuja",
       "plant_type": "Shrub",
       "images": ["plants/vidya_plant.jpeg"],
-      "watering": "Twice a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "watering": "💧 Twice a week",
+      "fun_fact": "🌲 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
     },
     {
       "id": 7,
@@ -74,8 +74,8 @@
       "scientific_name": "Coleus scutellarioides",
       "plant_type": "Herb",
       "images": ["plants/coleus_1.jpeg"],
-      "watering": "Twice a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "watering": "💧 Twice a week",
+      "fun_fact": "🍂 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
     },
     {
       "id": 8,
@@ -85,8 +85,8 @@
       "scientific_name": "Euonymus japonicus",
       "plant_type": "Shrub",
       "images": ["plants/japanese_spindletree.jpeg", "plants/japanese_spindletree_2.jpeg"],
-      "watering": "Twice a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "watering": "💧 Twice a week",
+      "fun_fact": "🌳 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
     },
     {
       "id": 9,
@@ -96,8 +96,8 @@
       "scientific_name": "Cupressus macrocarpa",
       "plant_type": "Shrub",
       "images": ["plants/golden_cypress.jpeg"],
-      "watering": "Twice a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "watering": "💧 Twice a week",
+      "fun_fact": "🌲 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
     },
     {
       "id": 10,
@@ -107,8 +107,8 @@
       "scientific_name": "Salvia rosmarinus",
       "plant_type": "Herb",
       "images": ["plants/rosemary.jpeg"],
-      "watering": "Twice a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "watering": "💧 Twice a week",
+      "fun_fact": "🌿 It is a popular herb used in cooking and traditional medicine."
     },
     {
       "id": 11,
@@ -118,8 +118,8 @@
       "scientific_name": "Artemisia stelleriana",
       "plant_type": "Herb",
       "images": ["plants/artemisia.jpeg"],
-      "watering": "Twice a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "watering": "💧 Twice a week",
+      "fun_fact": "🌼 Known for its silvery-white foliage and drought tolerance."
     },
     {
       "id": 12,
@@ -129,8 +129,8 @@
       "scientific_name": "Coleus scutellarioides",
       "plant_type": "Herb",
       "images": ["plants/coleus2.jpeg", "plants/coleus2_2.jpeg"],
-      "watering": "Twice a week",
-      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "watering": "💧 Twice a week",
+      "fun_fact": "🌈 Valued for its vibrant, colorful foliage in various patterns."
     }
   ]
 }
