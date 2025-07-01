@@ -1,0 +1,15 @@
+.plant-details-page {
+  display: flex;
+  padding: 20px;
+}
+
+.plant-details-page img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.plant-details-content {
+  flex: 1;
+}
