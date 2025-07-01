@@ -1,0 +1,136 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Snake plant",
+      "slug": "snake-plant",
+      "category": "Indoor",
+      "scientific_name": "Dracaena trifasciata",
+      "plant_type": "Succulent",
+      "images": ["plants/snake_plant.jpeg"],
+      "watering": "Once a week",
+      "fun_fact": "It is a popular houseplant because it is tolerant of low light levels and irregular watering."
+    },
+    {
+      "id": 2,
+      "name": "Elephant Bush",
+      "slug": "elephant-bush",
+      "category": "Indoor",
+      "scientific_name": "Portulacaria afra",
+      "plant_type": "Succulent",
+      "images": ["plants/elephant_bush.jpeg"],
+      "watering": "Once a week",
+      "fun_fact": "It is a common houseplant, but is also used in landscaping in some parts of the world."
+    },
+    {
+      "id": 3,
+      "name": "Jade Plant",
+      "slug": "jade-plant",
+      "category": "Indoor",
+      "scientific_name": "Crassula ovata",
+      "plant_type": "Succulent",
+      "images": ["plants/jade.jpeg", "plants/jade_2.jpeg"],
+      "watering": "Once a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a symbol of good luck."
+    },
+    {
+      "id": 4,
+      "name": "Ming Aralia",
+      "slug": "ming-aralia",
+      "category": "Indoor",
+      "scientific_name": "Polyscias fruticosa",
+      "plant_type": "Shrub",
+      "images": ["plants/ming_aralia.jpeg"],
+      "watering": "Once a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+    },
+    {
+      "id": 5,
+      "name": "Song of India Plant",
+      "slug": "song-of-india-plant",
+      "category": "Outdoor",
+      "scientific_name": "Dracaena reflexa",
+      "plant_type": "Shrub",
+      "images": ["plants/song_of_india.jpeg"],
+      "watering": "Twice a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+    },
+    {
+      "id": 6,
+      "name": "Vidya Plant",
+      "slug": "vidya-plant",
+      "category": "Outdoor",
+      "scientific_name": "Thuja",
+      "plant_type": "Shrub",
+      "images": ["plants/vidya_plant.jpeg"],
+      "watering": "Twice a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+    },
+    {
+      "id": 7,
+      "name": "Coleus Plant",
+      "slug": "coleus-plant",
+      "category": "Outdoor",
+      "scientific_name": "Coleus scutellarioides",
+      "plant_type": "Herb",
+      "images": ["plants/coleus_1.jpeg"],
+      "watering": "Twice a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+    },
+    {
+      "id": 8,
+      "name": "Japanese Spindletree",
+      "slug": "japanese-spindletree",
+      "category": "Outdoor",
+      "scientific_name": "Euonymus japonicus",
+      "plant_type": "Shrub",
+      "images": ["plants/japanese_spindletree.jpeg", "plants/japanese_spindletree_2.jpeg"],
+      "watering": "Twice a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+    },
+    {
+      "id": 9,
+      "name": "Golden Cypress",
+      "slug": "golden-cypress",
+      "category": "Outdoor",
+      "scientific_name": "Cupressus macrocarpa",
+      "plant_type": "Shrub",
+      "images": ["plants/golden_cypress.jpeg"],
+      "watering": "Twice a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+    },
+    {
+      "id": 10,
+      "name": "Rosemary",
+      "slug": "rosemary",
+      "category": "Outdoor",
+      "scientific_name": "Salvia rosmarinus",
+      "plant_type": "Herb",
+      "images": ["plants/rosemary.jpeg"],
+      "watering": "Twice a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+    },
+    {
+      "id": 11,
+      "name": "Artemisia stelleriana",
+      "slug": "artemisia-stelleriana",
+      "category": "Outdoor",
+      "scientific_name": "Artemisia stelleriana",
+      "plant_type": "Herb",
+      "images": ["plants/artemisia.jpeg"],
+      "watering": "Twice a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+    },
+    {
+      "id": 12,
+      "name": "Coleus",
+      "slug": "coleus",
+      "category": "Outdoor",
+      "scientific_name": "Coleus scutellarioides",
+      "plant_type": "Herb",
+      "images": ["plants/coleus2.jpeg", "plants/coleus2_2.jpeg"],
+      "watering": "Twice a week",
+      "fun_fact": "It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+    }
+  ]
+}
