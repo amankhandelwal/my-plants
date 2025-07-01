@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename={"/my-plants"}>
       <div className="App">
         <Header />
         <main>
