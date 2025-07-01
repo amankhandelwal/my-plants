@@ -7,7 +7,7 @@ const PlantDetailsPage = () => {
   const { slug } = useParams();
 
   useEffect(() => {
-    fetch('/plants.json')
+    fetch(`${process.env.PUBLIC_URL}/plants.json`)
       .then((response) => response.json())
       .then((data) => {
         const selectedPlant = data.plants.find((p) => p.slug === slug);
@@ -23,7 +23,7 @@ const PlantDetailsPage = () => {
     <div className="plant-details-page">
       <div className="plant-images">
         {plant.images.map((image, index) => (
-          <img key={index} src={`/${image}`} alt={`${plant.name} ${index + 1}`} />
+          <img key={index} src={`${process.env.PUBLIC_URL}/${image}`} alt={`${plant.name} ${index + 1}`} />
         ))}
       </div>
       <div className="plant-details-content">

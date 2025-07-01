@@ -6,7 +6,7 @@ const HomePage = () => {
   const [plants, setPlants] = useState([]);
 
   useEffect(() => {
-    fetch('/plants.json')
+    fetch(`${process.env.PUBLIC_URL}/plants.json`)
       .then((response) => response.json())
       .then((data) => setPlants(data.plants));
   }, []);
