@@ -23,11 +23,7 @@ const PlantDetailsPage = () => {
   return (
     <div className="plant-details-page">
       <button onClick={() => navigate(-1)} className="back-button">← Back to Home</button>
-      <div className="plant-images">
-        {plant.images.map((image, index) => (
-          <img key={index} src={`${process.env.PUBLIC_URL}/${image}`} alt={`${plant.name} ${index + 1}`} />
-        ))}
-      </div>
+      <ImageGallery images={plant.images} plantName={plant.name} />
       <div className="plant-details-content">
         <h1>{plant.name}</h1>
         <p><strong>Category:</strong> {plant.category}</p>

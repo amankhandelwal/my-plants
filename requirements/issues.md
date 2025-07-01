@@ -7,4 +7,10 @@
 - [x] Instead of using numbers on the page url, we should make it more readable by actually using the plant's name (hyphen separated incase of multiple words). Page URL can also be part of the json config
 - [x] The images and content are appearing correctly on localhost however on github, the content and image are both disappearing. Try looking at the website using the link and comparing it with localhost
 
-### Unsolved
+### Solved:
+- [x] Due to heavy caching on React, my design changes don't appear on reloading the page. I have to actually shut the tab and reopen it. Can you fix this? Let's not hamper the performance of the page though.
+- [x] Fonts updated to Roboto (content), Atma (sub headings), and DynaPuff (Headings).
+- [x] Plant Details Page: Back button alignment and styling improved, title color adjusted for visibility, text content left-aligned, and an interactive image gallery implemented.
+- [x] Header redesigned for a modern aesthetic, with adjusted subheading and header colors.
+- [x] Overall styling, padding, and margins improved, and emojis/icons added for visual interest.
+- [x] Design references (references/sample_website_1.png, references/sample_website_2.png) used for inspiration.

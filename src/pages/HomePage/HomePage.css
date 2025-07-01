@@ -1,9 +1,21 @@
 .home-page {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .plant-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
   justify-content: center;
+  width: 100%;
+  max-width: 1200px; /* Limit overall width for better aesthetics */
+}
+
+@media (max-width: 768px) {
+  .plant-list {
+    grid-template-columns: 1fr;
+  }
 }

@@ -1,7 +1,7 @@
 .plant-details-page {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 30px;
   background-color: var(--accent-color-2);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -34,6 +34,7 @@
 .plant-details-content {
   flex: 1;
   padding: 10px;
+  text-align: left;
 }
 
 .plant-details-content h1 {
@@ -62,6 +63,7 @@
   margin-bottom: 20px;
   align-self: flex-start;
   transition: background-color 0.2s ease-in-out;
+  margin-left: 10px;
 }
 
 .back-button:hover {
