@@ -9,7 +9,19 @@
 	- Taglines
 	- Making the design beautiful
 	- Quotes/Phrases
-- Each requirement markdown file would have a section called "GEMINI's plan". You're supposed to populate this with a plan. Again, keep in mind that you're talking to a senior engineer. Make sure to keep things structured, concise and assume a certain level of maturity.
-	- Plan should specifically talk about all the local libraries you plan to install/update, a one liner of what they do and why you need them
-	- You are always supposed to take an approval on the plan before execution
+- Each requirement markdown file would have a section called "GEMINI's plan". You're supposed to populate this with a plan. 
+  - Again, keep in mind that you're talking to a senior engineer. Make sure to keep things structured, concise and assume a certain level of maturity.
+  - Plan should specifically talk about all the local libraries you plan to install/update, a one liner of what they do and why you need them
+  - You should always add the plan in the requirements file before you begin execution
+  - You are always supposed to take an approval on the plan before execution
 - If there are any commands you need me to run (I heard there have been issues reported on Gemini not being able to run interactive shell commands), ask me to run them for you.
+- Update Readme with Current Folder Structure, documentation about different core components
+- After every session of stable changes, proactively ask me to commit changes (as a checkpoint)
+
+### Understand the requirement folder structure
+- I'll be sharing requirements with you in Markdown files which would be present in /requirements folder
+  - In each of the requirements markdown file, there would be 2 sections that you are responsible to proactively populate
+    - Gemini's Plan - this section should contain details about your plan to execute the proposed requirements
+    - Gemini's checkpoint - this section should contain details about things you have done - this acts as checkpoints/logs incase our execution stops in the middle and I have to restart Gemini
+- all the active issues would be present in /requirements/issues.md
+  - Once an issue is resolved, mark it as checked in the markdown

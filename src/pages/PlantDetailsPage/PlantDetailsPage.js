@@ -4,16 +4,16 @@ import './PlantDetailsPage.css';
 
 const PlantDetailsPage = () => {
   const [plant, setPlant] = useState(null);
-  const { id } = useParams();
+  const { slug } = useParams();
 
   useEffect(() => {
     fetch('/plants.json')
       .then((response) => response.json())
       .then((data) => {
-        const selectedPlant = data.plants.find((p) => p.id === parseInt(id));
+        const selectedPlant = data.plants.find((p) => p.slug === slug);
         setPlant(selectedPlant);
       });
-  }, [id]);
+  }, [slug]);
 
   if (!plant) {
     return <div>Loading...</div>;
@@ -21,7 +21,11 @@ const PlantDetailsPage = () => {
 
   return (
     <div className="plant-details-page">
-      <img src={`/${plant.image}`} alt={plant.name} />
+      <div className="plant-images">
+        {plant.images.map((image, index) => (
+          <img key={index} src={`/${image}`} alt={`${plant.name} ${index + 1}`} />
+        ))}
+      </div>
       <div className="plant-details-content">
         <h1>{plant.name}</h1>
         <p><strong>Category:</strong> {plant.category}</p>

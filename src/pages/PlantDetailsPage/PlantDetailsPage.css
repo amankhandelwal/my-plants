@@ -3,11 +3,17 @@
   padding: 20px;
 }
 
+.plant-images {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
 .plant-details-page img {
   width: 400px;
   height: 400px;
   object-fit: cover;
-  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .plant-details-content {
