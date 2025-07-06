@@ -17,3 +17,32 @@
 - [x] Image Gallery is not working correctly. Reduce the size of the thumbnails below. Check references/plant_details_page.png on the size of the main image vs thumbnails. When there are less images, let the space be empty, but keep the thumbnails small.
 - [x] Thumbnail should include the original image too. Selected Image should be highlighted in some way
 - [x] Use Atma font for the Plant name heading in Plant Details Page
+
+### Unsolved: 
+- [ ] In PlantDetailsPage.css you have a css class based property setup like below. This is causing the
+```css  
+.plant-details-page img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  }
+```
+And then you have ImageGallery.css which sets
+```css
+.thumbnail {
+  width: 60px; /* Reduced thumbnail size */
+  height: 60px; /* Reduced thumbnail size */
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0; /* Prevent shrinking */
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: border-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+```
+The width is conflicting in both the CSS properties making the thumbnail huge.
+
+### Error:

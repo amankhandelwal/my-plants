@@ -35,7 +35,8 @@ const PlantDetailsPage = () => {
         <p><strong>Fun Fact:</strong> {plant.fun_fact}</p>
       </div>
     </div>
-  );
+  </div>
+);
 };
 
 export default PlantDetailsPage;
