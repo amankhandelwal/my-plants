@@ -1,7 +1,7 @@
 .plant-details-container {
-  padding: 20px;
+  padding: 0px 20px;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 0px auto 20px;
 }
 
 .plant-details-page {
@@ -57,7 +57,7 @@
   padding: 10px;
   cursor: pointer;
   font-size: 2em;
-  margin-bottom: 10px; /* Space between button and content */
+  margin-bottom: 0; /* Space between button and content */
   display: block; /* Ensure it takes its own row */
   transition: color 0.2s ease-in-out;
 }
