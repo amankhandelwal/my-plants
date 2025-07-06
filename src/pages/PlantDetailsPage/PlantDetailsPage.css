@@ -26,14 +26,7 @@
   flex-shrink: 0;
 }
 
-.plant-details-page img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
+
 
 .plant-details-content {
   flex: 1;
