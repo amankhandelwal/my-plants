@@ -3,18 +3,20 @@
   flex-direction: column;
   align-items: center;
   margin-right: 20px;
+  width: 100%; /* Make it take full width of its container */
+  max-width: 450px; /* Limit max width for larger screens */
 }
 
 .main-image-container {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 350px; /* Adjusted height for better proportion */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
-  border-radius: 8px;
+  margin-bottom: 15px;
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px var(--shadow-color);
 }
 
 .main-image {
@@ -26,25 +28,44 @@
 .thumbnail-container {
   display: flex;
   overflow-x: auto;
-  width: 400px;
+  width: 100%; /* Make it take full width of its container */
   padding-bottom: 10px; /* For scrollbar */
+  justify-content: flex-start; /* Align thumbnails to the start */
+  gap: 10px; /* Space between thumbnails */
 }
 
 .thumbnail {
-  width: 80px;
-  height: 80px;
+  width: 90px; /* Slightly larger thumbnails */
+  height: 90px;
   object-fit: cover;
-  border-radius: 5px;
-  margin: 0 5px;
+  border-radius: 8px;
+  flex-shrink: 0; /* Prevent shrinking */
   cursor: pointer;
-  border: 2px solid transparent;
-  transition: border-color 0.2s ease-in-out;
+  border: 3px solid transparent;
+  transition: border-color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .thumbnail.active {
   border-color: var(--primary-color);
+  transform: scale(1.05); /* Slightly enlarge active thumbnail */
 }
 
 .thumbnail:hover {
   border-color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .image-gallery {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .main-image-container {
+    height: 300px;
+  }
+
+  .thumbnail-container {
+    justify-content: center; /* Center thumbnails on smaller screens */
+  }
 }

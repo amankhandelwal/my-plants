@@ -1,7 +1,10 @@
 :root {
   --primary-color: #63CB68;
-  --secondary-color: #D9DD92;
   --accent-color-1: #ECE4B7;
   --accent-color-2: #EABE7C;
   --text-color: #443226;
+  --card-background: #F8F8F8; /* A light grey for card backgrounds */
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --light-background-color: #FFFFFF;
+  --subheading-color: #666666;
 }

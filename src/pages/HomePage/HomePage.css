@@ -1,5 +1,5 @@
 .home-page {
-  padding: 20px;
+  padding: 40px 20px; /* Increased padding for better spacing */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,15 +7,17 @@
 
 .plant-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjusted minmax for slightly smaller cards */
+  gap: 30px; /* Increased gap between cards */
   justify-content: center;
   width: 100%;
-  max-width: 1200px; /* Limit overall width for better aesthetics */
+  max-width: 1000px; /* Adjusted max-width to fit the wireframe better */
+  margin: 0 auto; /* Center the grid */
 }
 
 @media (max-width: 768px) {
   .plant-list {
     grid-template-columns: 1fr;
+    padding: 0 20px; /* Add horizontal padding for mobile */
   }
 }

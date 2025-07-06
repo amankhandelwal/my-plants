@@ -23,7 +23,7 @@ const PlantDetailsPage = () => {
 
   return (
     <div className="plant-details-page">
-      <button onClick={() => navigate(-1)} className="back-button">← Back to Home</button>
+      <button onClick={() => navigate(-1)} className="back-button">Back</button>
       <ImageGallery images={plant.images} plantName={plant.name} />
       <div className="plant-details-content">
         <h1>{plant.name}</h1>

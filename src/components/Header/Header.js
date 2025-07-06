@@ -4,8 +4,8 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <h1>Meet My Plants</h1>
-      <p>A collection of my favorite green friends.</p>
+      <h1>Meet My Plants.</h1>
+      <p>A growing collection of leafy friends.</p>
     </header>
   );
 };
