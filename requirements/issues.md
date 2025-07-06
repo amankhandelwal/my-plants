@@ -12,10 +12,8 @@
 - [x] Header redesigned for a modern aesthetic, with adjusted subheading and header colors.
 - [x] Overall styling, padding, and margins improved, and emojis/icons added for visual interest.
 - [x] Design references (references/sample_website_1.png, references/sample_website_2.png) used for inspiration.
-
-### Unsolved:
-- [ ] Back button is on top of Image Gallery. Ideally Back button should be on it's own row at the top. Below that the split view of image gallery and Plant details should happen
-- [ ] Let's stick to the material Icon for the back button
-- [ ] Image Gallery is not working correctly. Reduce the size of the thumbnails below. Check references/plant_details_page.png on the size of the main image vs thumbnails
-- [ ] Thumbnail should include the original image too. Selected Image should be highlighted in some way
-- [ ] Use Atma font for the Plant name heading in Plant Details Page
+- [x] Back button is on top of Image Gallery. Ideally Back button should be on it's own row at the top. Below that the split view of image gallery and Plant details should happen
+- [x] Let's stick to the material Icon for the back button
+- [x] Image Gallery is not working correctly. Reduce the size of the thumbnails below. Check references/plant_details_page.png on the size of the main image vs thumbnails. When there are less images, let the space be empty, but keep the thumbnails small.
+- [x] Thumbnail should include the original image too. Selected Image should be highlighted in some way
+- [x] Use Atma font for the Plant name heading in Plant Details Page

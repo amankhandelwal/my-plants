@@ -35,8 +35,8 @@
 }
 
 .thumbnail {
-  width: 90px; /* Slightly larger thumbnails */
-  height: 90px;
+  width: 60px; /* Reduced thumbnail size */
+  height: 60px; /* Reduced thumbnail size */
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0; /* Prevent shrinking */
