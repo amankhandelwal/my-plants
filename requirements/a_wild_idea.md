@@ -3,13 +3,11 @@ I love the fact that we've reached a decent place with the website. I had a wild
 All of these images are of actual plants in my balcony. I was thinking of taking a 360 degree image of my balcony and having tooltips/clickable buttons on top of all my individual plants. You could click on that plant and get details about that plant as a tooltip there itself. And you could use the image to explore the entire balcony and all the plants. Bonus points if you could zoom in as some of the plants might be smaller in size, making clicking a little difficult.
 
 # Rules
-Do not start execution. Right now we are in pure Ideation phase. We'll talk and discuss. You are allowed to add GEMINI's plan to this file
-
-**DO NOT START ANY EXECUTION UNTIL THIS RULE IS REMOVED FROM THIS FILE**
-
 Considering this is a wild idea, we are going to execute this on a separate git branch - so we don't mess up the existing code.
 - Branch name - 360degree/init
 - We'll create a Pull request on Github once the development is completed
+
+All library installations should always be restricted to the scope of this directory. There shouldn't be any global level installations
 
 # Technical Requirements
 Let's talk about technical requirements:
