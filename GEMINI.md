@@ -18,6 +18,13 @@
 - Update Readme with Current Folder Structure, documentation about different core components
 - After every session of stable changes, proactively ask me to commit changes (as a checkpoint)
 
+# Things you are not allowed to do unless I specifically ask you to do it or you have taken an explicit consent:
+You are not allowed to do the following things unless I specifically ask you to do that action, or you have taken an explicit consent from me to do the following.
+- Make commits to main or master branch
+- Deploy code to GH Pages
+- Install new Libraries. You can list down all the libraries you are going to need. I'll give an explicit consent to install some/all/none of the libraries
+
+
 ### Understand the requirement folder structure
 - I'll be sharing requirements with you in Markdown files which would be present in /requirements folder
   - In each of the requirements markdown file, there would be 2 sections that you are responsible to proactively populate

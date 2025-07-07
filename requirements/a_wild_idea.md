@@ -4,7 +4,12 @@ All of these images are of actual plants in my balcony. I was thinking of taking
 
 # Rules
 Do not start execution. Right now we are in pure Ideation phase. We'll talk and discuss. You are allowed to add GEMINI's plan to this file
+
 **DO NOT START ANY EXECUTION UNTIL THIS RULE IS REMOVED FROM THIS FILE**
+
+Considering this is a wild idea, we are going to execute this on a separate git branch - so we don't mess up the existing code.
+- Branch name - 360degree/init
+- We'll create a Pull request on Github once the development is completed
 
 # Technical Requirements
 Let's talk about technical requirements:
