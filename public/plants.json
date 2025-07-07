@@ -9,7 +9,9 @@
       "plant_type": "Succulent",
       "images": ["plants/snake_plant.jpeg"],
       "watering": "💧 Once a week",
-      "fun_fact": "✨ It is a popular houseplant because it is tolerant of low light levels and irregular watering."
+      "fun_fact": "✨ It is a popular houseplant because it is tolerant of low light levels and irregular watering.",
+      "pitch": 0,
+      "yaw": 0
     },
     {
       "id": 2,
@@ -20,7 +22,9 @@
       "plant_type": "Succulent",
       "images": ["plants/elephant_bush.jpeg"],
       "watering": "💧 Once a week",
-      "fun_fact": "🌿 It is a common houseplant, but is also used in landscaping in some parts of the world."
+      "fun_fact": "🌿 It is a common houseplant, but is also used in landscaping in some parts of the world.",
+      "pitch": 0,
+      "yaw": 30
     },
     {
       "id": 3,
@@ -31,7 +35,9 @@
       "plant_type": "Succulent",
       "images": ["plants/jade.jpeg", "plants/jade_2.jpeg"],
       "watering": "💧 Once a week",
-      "fun_fact": "🍀 It is a popular houseplant, and is also used in some cultures as a symbol of good luck."
+      "fun_fact": "🍀 It is a popular houseplant, and is also used in some cultures as a symbol of good luck.",
+      "pitch": 0,
+      "yaw": 60
     },
     {
       "id": 4,
@@ -42,7 +48,9 @@
       "plant_type": "Shrub",
       "images": ["plants/ming_aralia.jpeg"],
       "watering": "💧 Once a week",
-      "fun_fact": "🌸 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "fun_fact": "🌸 It is a popular houseplant, and is also used in some cultures as a medicinal plant.",
+      "pitch": 0,
+      "yaw": 90
     },
     {
       "id": 5,
@@ -53,7 +61,9 @@
       "plant_type": "Shrub",
       "images": ["plants/song_of_india.jpeg"],
       "watering": "💧 Twice a week",
-      "fun_fact": "🌴 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "fun_fact": "🌴 It is a popular houseplant, and is also used in some cultures as a medicinal plant.",
+      "pitch": 0,
+      "yaw": 120
     },
     {
       "id": 6,
@@ -64,7 +74,9 @@
       "plant_type": "Shrub",
       "images": ["plants/vidya_plant.jpeg"],
       "watering": "💧 Twice a week",
-      "fun_fact": "🌲 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "fun_fact": "🌲 It is a popular houseplant, and is also used in some cultures as a medicinal plant.",
+      "pitch": 0,
+      "yaw": 150
     },
     {
       "id": 7,
@@ -75,7 +87,9 @@
       "plant_type": "Herb",
       "images": ["plants/coleus_1.jpeg"],
       "watering": "💧 Twice a week",
-      "fun_fact": "🍂 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "fun_fact": "🍂 It is a popular houseplant, and is also used in some cultures as a medicinal plant.",
+      "pitch": 0,
+      "yaw": 180
     },
     {
       "id": 8,
@@ -86,7 +100,9 @@
       "plant_type": "Shrub",
       "images": ["plants/japanese_spindletree.jpeg", "plants/japanese_spindletree_2.jpeg"],
       "watering": "💧 Twice a week",
-      "fun_fact": "🌳 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "fun_fact": "🌳 It is a popular houseplant, and is also used in some cultures as a medicinal plant.",
+      "pitch": 0,
+      "yaw": -150
     },
     {
       "id": 9,
@@ -97,7 +113,9 @@
       "plant_type": "Shrub",
       "images": ["plants/golden_cypress.jpeg"],
       "watering": "💧 Twice a week",
-      "fun_fact": "🌲 It is a popular houseplant, and is also used in some cultures as a medicinal plant."
+      "fun_fact": "🌲 It is a popular houseplant, and is also used in some cultures as a medicinal plant.",
+      "pitch": 0,
+      "yaw": -120
     },
     {
       "id": 10,
@@ -108,7 +126,9 @@
       "plant_type": "Herb",
       "images": ["plants/rosemary.jpeg"],
       "watering": "💧 Twice a week",
-      "fun_fact": "🌿 It is a popular herb used in cooking and traditional medicine."
+      "fun_fact": "🌿 It is a popular herb used in cooking and traditional medicine.",
+      "pitch": 0,
+      "yaw": -90
     },
     {
       "id": 11,
@@ -119,7 +139,9 @@
       "plant_type": "Herb",
       "images": ["plants/artemisia.jpeg"],
       "watering": "💧 Twice a week",
-      "fun_fact": "🌼 Known for its silvery-white foliage and drought tolerance."
+      "fun_fact": "🌼 Known for its silvery-white foliage and drought tolerance.",
+      "pitch": 0,
+      "yaw": -60
     },
     {
       "id": 12,
@@ -130,7 +152,9 @@
       "plant_type": "Herb",
       "images": ["plants/coleus2.jpeg", "plants/coleus2_2.jpeg"],
       "watering": "💧 Twice a week",
-      "fun_fact": "🌈 Valued for its vibrant, colorful foliage in various patterns."
+      "fun_fact": "🌈 Valued for its vibrant, colorful foliage in various patterns.",
+      "pitch": 0,
+      "yaw": -30
     },
     {
       "id": 13,
@@ -141,7 +165,9 @@
       "plant_type": "Succulent",
       "images": ["plants/panda_plant.jpeg"],
       "watering": "💧 Once every 2-4 weeks",
-      "fun_fact": "🐼 Its leaves are covered in soft, fuzzy hairs, giving it a velvety texture."
+      "fun_fact": "🐼 Its leaves are covered in soft, fuzzy hairs, giving it a velvety texture.",
+      "pitch": 10,
+      "yaw": 10
     },
     {
       "id": 14,
@@ -152,7 +178,9 @@
       "plant_type": "Herbaceous perennial",
       "images": ["plants/spider_plant.jpeg"],
       "watering": "💧 Once a week",
-      "fun_fact": "🕷️ Produces 'spiderettes' that dangle from the mother plant, resembling spiders."
+      "fun_fact": "🕷️ Produces 'spiderettes' that dangle from the mother plant, resembling spiders.",
+      "pitch": 15,
+      "yaw": 45
     },
     {
       "id": 15,
@@ -163,7 +191,9 @@
       "plant_type": "Shrub",
       "images": ["plants/texas_sage.jpeg"],
       "watering": "💧 Drought tolerant, water sparingly",
-      "fun_fact": "💜 Known for its vibrant purple flowers that bloom after rain."
+      "fun_fact": "💜 Known for its vibrant purple flowers that bloom after rain.",
+      "pitch": 20,
+      "yaw": 75
     },
     {
       "id": 16,
@@ -174,7 +204,9 @@
       "plant_type": "Shrub",
       "images": ["plants/aralia.jpeg"],
       "watering": "💧 Once a week",
-      "fun_fact": "🌿 A versatile plant with large, glossy leaves, often used in tropical-themed gardens."
+      "fun_fact": "🌿 A versatile plant with large, glossy leaves, often used in tropical-themed gardens.",
+      "pitch": 25,
+      "yaw": 105
     }
   ]
 }

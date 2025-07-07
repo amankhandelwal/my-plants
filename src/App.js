@@ -13,7 +13,8 @@ function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<BalconyView />} />
+            <Route path="/list" element={<HomePage />} />
             <Route path="/plant/:slug" element={<PlantDetailsPage />} />
           </Routes>
         </main>
